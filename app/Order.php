@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Order extends Model
 {
+    // Test
     protected $table = 'orders';
     const STATUS_DRAFT = 1;
     const STATUS_APPROVED = 2;
