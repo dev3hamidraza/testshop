@@ -16,7 +16,7 @@ use App\Order;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get("/testcollection","testCollection@index");
 Route::get('/product', function () {
 
     $product = new \App\Product();
