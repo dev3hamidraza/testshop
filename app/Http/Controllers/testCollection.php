@@ -55,7 +55,6 @@ class testCollection extends Controller
         print_r($checks);
         echo "<br><br>";
 
-
     }
 
     /**
